@@ -1,0 +1,22 @@
+artifact_path: file:///c:/Users/ASHAN NUWANTHA/IdeaProjects/Deep-Thinkers-ML-Project/notebooks/mlruns/140926617587718825/models/m-61175a6843dc4a2e9a551d8fea75418b/artifacts
+flavors:
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+    skops_trusted_types: null
+is_signature_from_type_hint: false
+mlflow_version: 3.10.1
+model_id: m-61175a6843dc4a2e9a551d8fea75418b
+model_size_bytes: 868
+model_uuid: m-61175a6843dc4a2e9a551d8fea75418b
+prompts: null
+run_id: b51edfaf734a4947b2f7b063fc1e7fd3
+signature:
+  inputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1, 4]}}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1,
+    2]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2026-03-29 08:00:36.468620'

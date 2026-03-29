@@ -1,0 +1,3 @@
+[('num', StandardScaler(), Index(['product_id', 'price', 'quantity', 'shipping_delay'], dtype='object')), ('cat', OneHotEncoder(handle_unknown='ignore'), Index(['category', 'delivery_status', 'payment_method', 'device_type',
+       'channel', 'shipping_address', 'billing_address'],
+      dtype='object'))]

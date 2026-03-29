@@ -1,0 +1,10 @@
+artifact_location: file:///c:/Users/ASHAN NUWANTHA/IdeaProjects/Deep-Thinkers-ML-Project/notebooks/mlruns/140926617587718825/models/m-549ff32ac26040ac9b69e30d42eeb664/artifacts
+creation_timestamp: 1774771226507
+experiment_id: '140926617587718825'
+last_updated_timestamp: 1774771236187
+model_id: m-549ff32ac26040ac9b69e30d42eeb664
+model_type: null
+name: model
+source_run_id: ac9fb28794b942ef9aa1d6c7d60fec1c
+status: 2
+status_message: null

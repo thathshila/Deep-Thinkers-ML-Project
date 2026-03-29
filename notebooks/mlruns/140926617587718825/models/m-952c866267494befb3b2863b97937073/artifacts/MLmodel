@@ -1,0 +1,38 @@
+artifact_path: file:///c:/Users/ASHAN NUWANTHA/IdeaProjects/Deep-Thinkers-ML-Project/notebooks/mlruns/140926617587718825/models/m-952c866267494befb3b2863b97937073/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.4
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+    skops_trusted_types: null
+is_signature_from_type_hint: false
+mlflow_version: 3.10.1
+model_id: m-952c866267494befb3b2863b97937073
+model_size_bytes: 1281672
+model_uuid: m-952c866267494befb3b2863b97937073
+prompts: null
+run_id: e97e2246bdc248b7bf762d7b381d4874
+signature:
+  inputs: '[{"type": "long", "name": "product_id", "required": true}, {"type": "string",
+    "name": "category", "required": true}, {"type": "double", "name": "price", "required":
+    true}, {"type": "long", "name": "quantity", "required": true}, {"type": "string",
+    "name": "delivery_status", "required": true}, {"type": "string", "name": "payment_method",
+    "required": true}, {"type": "string", "name": "device_type", "required": true},
+    {"type": "string", "name": "channel", "required": true}, {"type": "string", "name":
+    "shipping_address", "required": true}, {"type": "string", "name": "billing_address",
+    "required": true}, {"type": "integer", "name": "order_month", "required": true},
+    {"type": "integer", "name": "order_day", "required": true}, {"type": "long", "name":
+    "shipping_delay", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "object", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2026-03-29 07:53:04.600679'

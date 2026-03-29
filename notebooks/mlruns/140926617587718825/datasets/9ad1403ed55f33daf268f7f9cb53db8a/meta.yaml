@@ -1,0 +1,16 @@
+digest: 45dabac7
+name: dataset
+profile: '{"num_rows": 2000, "num_elements": 26000}'
+schema: '{"mlflow_colspec": [{"type": "long", "name": "product_id", "required": true},
+  {"type": "string", "name": "category", "required": true}, {"type": "double", "name":
+  "price", "required": true}, {"type": "long", "name": "quantity", "required": true},
+  {"type": "string", "name": "delivery_status", "required": true}, {"type": "string",
+  "name": "payment_method", "required": true}, {"type": "string", "name": "device_type",
+  "required": true}, {"type": "string", "name": "channel", "required": true}, {"type":
+  "string", "name": "shipping_address", "required": true}, {"type": "string", "name":
+  "billing_address", "required": true}, {"type": "integer", "name": "order_month",
+  "required": true}, {"type": "integer", "name": "order_day", "required": true}, {"type":
+  "long", "name": "shipping_delay", "required": true}]}'
+source: '{"tags": {"mlflow.user": "ASHAN NUWANTHA", "mlflow.source.name": "3_unsupervised_clustering.ipynb",
+  "mlflow.source.type": "NOTEBOOK"}}'
+source_type: code
